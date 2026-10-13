@@ -401519,3 +401519,41 @@ El puesto es de tipo presencial, por lo que es necesario que puedas asistir a la
 Si tienes un perfil orientado al servicio y te apasiona la tecnología, esta oportunidad es para ti.
 Únete a nuestro equipo y contribuye al éxito de nuestros proyectos.
 Si cumples con los requisitos y estás interesado en este desafío, estamos ansiosos por conocer tu perfil y cómo puedes contribuir a nuestro equipo.",,full-time,"Miguel Hidalgo, Ciudad de México DF",,,,A convenir USD,,,,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-en-informatica-en-sitio-y-remoto-para-nuestros-clientes-en-iztacalco-BDF7B4E31E3146E061373E686DCF3405,Importante empresa del sector,,,,,,,"Miguel Hidalgo, Ciudad de México DF",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-en-informatica-en-sitio-y-remoto-para-nuestros-clientes-en-iztacalco-BDF7B4E31E3146E061373E686DCF3405,1ccfec6181b8d665
+101,1,Solution Architect - Data Modeler,"With over two decades of experience, Kutir partners with forward-thinking companies to build world-class teams across emerging technologies. We bring deep domain expertise, a sharp eye for innovation, and a trusted network of proven engineers and architects.
+We help you accelerate product development, scale innovation, and unlock business value by connecting you with top-tier professionals.
+Whether youre building AI-first products, scaling cloud infrastructure, or driving digital transformation, Kutir brings the right expertise to help you move faster and smarter with confidence.
+Lets shape whats next. Together.
+Solution Architect / Data Modeler
+Role Purpose
+The Solution Architect owns end-to-end technical solutioning and delivery oversight across all four deliverables, acts as the primary technical counterpart to the clients Data Engineering team, and ensures architectural consistency between the Gold-layer pipeline work (Data Practice) and the newsroom UI work (UI Practice). This role is the single point of technical accountability onshore and is expected to be embedded in daily client-facing collaboration, not just internal delivery oversight.
+Key Responsibilities
+Own the technical architecture for Gold-layer pipeline design (dbt/Airflow on a cloud data warehouse platform) and its integration points with the Real-Time Newsroom Web UI and Audience Goals Dashboard.
+Serve as primary technical liaison to client Data Engineering, Data Collection, and Program Management stakeholders; represent Virtusa in technical design discussions and Q1 joint-discovery sessions.
+Translate ambiguous or not-yet-final requirements into concrete technical specifications, in coordination with the Solution Lead.
+Drive resolution of open architectural dependencies: Bronze/Silver readiness handoff, event-tracker instrumentation gaps, reconciliation tolerance thresholds, hosting platform confirmation, and role-based access model.
+Provide hands-on technical direction to the offshore engineering team (Data, UI Build, UX Design streams); review designs and key implementation decisions.
+Own delivery risk management for the accelerated-track deliverable given its hard deadline and out-of-band design process.
+Ensure data quality, parity validation (vs. legacy platform baselines), and observability/runbook standards meet client Data Engineering conventions (dbt, managed workflow orchestration, standard linting/pre-commit tooling).
+Support sprint-level planning and resourcing decisions, including uneven quarter-over-quarter workload across the program.
+Proactively escalate scope, timeline, or dependency risks to the Solution Lead.
+Contribute to post-launch support, knowledge-transfer planning, and documentation handover to the clients Data Engineering team.
+Required Skills & Experience
+8+ years in data/solution architecture roles, including at least 3+ years in cloud data warehouse-based medallion (Bronze/Silver/Gold) architectures (e.g., Snowflake, Databricks, BigQuery).
+Hands-on experience with event-driven data collection platforms such as Snowplow, Segment, or mParticle as a source system.
+Strong dbt and workflow orchestration experience (e.g., Airflow); familiarity with managed orchestration bridges (e.g., Astronomer Cosmos) is a plus.
+Experience architecting real-time or near-real-time analytics pipelines for high-concurrency, low-latency use cases (media/publishing/editorial analytics experience strongly preferred).
+Experience with data migration/parity validation projectslegacy vendor analytics tool to modern in-house replacement.
+Working knowledge of front-end/full-stack architecture sufficient to coordinate with a UI-build team (role does not require hands-on front-end development).
+Experience operating in T&M, staff-augmentation delivery models with a client-owned PMO.
+Strong client-facing communication skills; comfortable representing technical positions directly to enterprise client stakeholders.
+Experience managing or technically directing offshore delivery teams.
+Familiarity with SSO/Okta-based role access models and enterprise data governance frameworks.
+Nice to Have
+Prior experience with BI tool (e.g., Tableau) integration/repointing projects.
+Experience in newsroom/editorial analytics tooling (Parse.ly, Chartbeat, or similar).
+AWS certification or hands-on AWS/EKS/Istio experience.
+Snowplow, Segment, mParticle, Adobe Analytics event collection, Google Analytics event instrumentation, or a similar clickstream/event-tracking platform.
+
+-Requerimientos- Educación mínima: Educación superior - Licenciatura
+5 años de experiencia
+Palabras clave: arquitecto, architecture, arquitectura, datos, data",FULL_TIME,full-time,"Miguel Hidalgo, Ciudad de México DF",Informática / Software,,,150000 MXN,2026-08-21,2026-10-20,2026-11-21,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-solution-architect-data-modeler-en-miguel-hidalgo-A55A19B867E1209861373E686DCF3405,Kutir Technologies,,https://ii.ct-stc.com/2/logos/empresas/2026/08/13/kutir-technologies-1DFBB653785F156C214106thumbnail.png,Informática / Software,,,,"Miguel Hidalgo, Ciudad de México DF",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-solution-architect-data-modeler-en-miguel-hidalgo-A55A19B867E1209861373E686DCF3405,893837171217be0a
