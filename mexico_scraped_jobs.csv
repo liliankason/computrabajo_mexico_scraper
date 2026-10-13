@@ -368241,3 +368241,39 @@ Edad: entre 20 y 40 años
 Conocimientos: Trabajo en equipo, Acabados, Limpieza, Manejo de vehículos, Materiales, Organización
 Licencias de conducir: A
 Palabras clave: coach, entreador",FULL_TIME,full-time,"Benito Juárez, Ciudad de México DF",RRHH / Personal,,,10500 MXN,2026-09-03,2026-11-02,2026-12-03,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lavadora-preparador-de-autos-en-benito-juarez-95B4E6E0E805C3B861373E686DCF3405,Chevrolet Insurgentes,,,RRHH / Personal,,,,"Benito Juárez, Ciudad de México DF",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lavadora-preparador-de-autos-en-benito-juarez-95B4E6E0E805C3B861373E686DCF3405,d314b1ac5e48bf77
+155,3,Analista de datos,"Dato Duro es una firma de investigación de opinión pública que combina rigor metodológico, claridad editorial y lectura estratégica. Buscamos construir información confiable y comunicarla de manera clara, imparcial y visualmente sólida.
+Objetivo del puesto
+Convertir el diseño metodológico definido por la Dirección General en procesos ejecutables, reproducibles y documentados: operar el sistema de levantamiento telefónico automatizado, procesar y ponderar las bases resultantes, y producir los entregables analíticos que sustentan cada estudio.
+Encuadre crítico del puesto: el titular no define la metodología. La ejecuta, la documenta y garantiza que sea reproducible. Dado que los estudios electorales publicados deben sostenerse ante el Instituto Nacional Electoral con metodología escrita, tasa de respuesta y porcentajes de no respuesta declarados, la reproducibilidad del cálculo no es una buena práctica interna sino un requisito regulatorio.
+Responsabilidades
+Levantamiento encuestas
+Operar la plataforma de llamadas automatizadas: carga de muestras, programación de flujos de cuestionario, lanzamiento y monitoreo de campañas en curso.
+Mantener y depurar el marco muestral telefónico, atendiendo el problema de la portabilidad numérica, que impide inferir ubicación geográfica a partir de la clave LADA.
+Monitorear en tiempo real las cuotas y la tasa de abandono durante el levantamiento, y alertar desviaciones.
+Procesamiento y análisis
+Limpiar y estructurar las bases crudas resultantes de cada levantamiento.
+Aplicar ponderación y posestratificación a marginales poblacionales, así como ajuste por no respuesta.
+Calcular márgenes de error incorporando el efecto de diseño correspondiente.
+Producir tabulados, cruces y series de tendencia.
+Codificar respuestas abiertas mediante modelos de lenguaje, validando siempre contra una submuestra codificada manualmente.
+Documentación y control
+Versionar en repositorio todo script que genere un número publicado.
+Redactar la ficha técnica de cada estudio conforme a los requisitos de la autoridad electoral.
+Mantener el archivo reproducible de cada estudio: base cruda, script, base ponderada y resultado publicado.
+Requisitos indispensables
+Formación en actuaría, estadística, matemáticas aplicadas, economía o ciencia de datos.
+Entre uno y tres años de experiencia, o egreso reciente con trabajo demostrable.
+R o Python a nivel operativo. En R: survey, srvyr, anesrake. En Python: pandas, statsmodels, ipfn. Se evalúa código, no cursos acreditados.
+Ponderación, raking y posestratificación aplicadas, no solo conocidas en teoría.
+Cálculo de márgenes de error con efecto de diseño.
+Control de versiones con Git. Requisito no negociable.
+Uso aplicado de inteligencia artificial: codificación de respuestas abiertas mediante modelos de lenguaje, automatización de tabulados y consumo de APIs. Se exige criterio de validación: quien no contrasta la salida del modelo contra codificación manual, no cumple el requisito.
+Deseables
+SQL y construcción de tableros en Power BI o Looker Studio.
+Nociones de estadística bayesiana y modelos multinivel, con vistas a asumir la modelación de regresión multinivel con posestratificación (MRP) en el ciclo 2027.
+Experiencia previa en casas encuestadoras, centros de investigación o áreas de análisis gubernamental.
+
+-Requerimientos- Educación mínima: Educación superior - Licenciatura
+2 años de experiencia
+Edad: entre 25 y 50 años
+Palabras clave: analyst, data",FULL_TIME,full-time,"Benito Juárez, Ciudad de México DF",Servicios Profesionales,,,10000 MXN,2026-09-02,2026-11-01,2026-12-02,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-en-benito-juarez-D167FCD915710C5661373E686DCF3405,UPEKSA COMERCIALIZACION Y DISTRIBUCION SA DE CV,,,Servicios Profesionales,,,,"Benito Juárez, Ciudad de México DF",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-en-benito-juarez-D167FCD915710C5661373E686DCF3405,d0ce583221f1431f
