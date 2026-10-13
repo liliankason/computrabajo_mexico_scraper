@@ -203940,3 +203940,47 @@ Si esta oportunidad es de tu interés, ¡postúlate por este medio!
 años de experiencia
 Edad: entre 18 y 74 años
 Palabras clave: asistente, auxiliar, aux, auxiliary, assistant, helper, aide, boutique, tienda, store, establecimiento, bazar, bazzar",FULL_TIME,full-time,"Miguel Hidalgo, Ciudad de México DF",Venta al consumidor,,,8800 MXN,2026-10-08,2026-12-07,2027-01-08,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ayudante-de-tienda-pago-semanal-por-metro-panteones-en-miguel-hidalgo-3CD97F17B928BA4061373E686DCF3405,OXXO,,https://ii.ct-stc.com/2/logos/empresas/2022/03/16//femsaservicios185012thumbnail.png,Venta al consumidor,,,,"Miguel Hidalgo, Ciudad de México DF",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ayudante-de-tienda-pago-semanal-por-metro-panteones-en-miguel-hidalgo-3CD97F17B928BA4061373E686DCF3405,d4434efb9ca21ab2
+497,8,Líder Técnico de IA - Arquitecto RAG y Agentes,"GRUPO TRUPER SOLICITA:
+
+Líder Técnico de IA / Arquitecto RAG y Agentes
+
+ESQUEMA PRESENCIAL
+
+Ofrecemos:
+
+100% Nominal
+No es proyecto
+Contrato directo
+Prestaciones le ley y superiores
+
+Propósito del rol
+
+Liderar la construcción técnica del sistema RAG + agentes desde cero, definiendo la arquitectura, estándares, integraciones y asegurando que todo funcione de manera óptima y escalable.
+
+Responsabilidades clave
+
+Diseñar la arquitectura de extremo a extremo para RAG + agentes: ingestión, chunking, embeddings, indexación, consultas, razonamiento, memoria, herramientas auxiliares.
+Implementar pipelines robustos y eficientes de chunking, embeddings, búsqueda semántica e inferencia con modelos.
+Diseñar e integrar agentes (LangChain o equivalente) con herramientas externas, memoria, lógica de pasos, flujos condicionados.
+Definir y aplicar patrones de diseño (por ejemplo, Strategy, Factory, Dependency Injection, Observer) para mantener el sistema modular y mantenible.
+Integrar con sistemas internos: CRMs, ERPs, APIs, bases de datos, colas (RabbitMQ), arquitecturas orientadas a eventos (EDA).
+Liderar optimización de performance: latencia, costo, uso de embeddings, caching, reducción de alucinaciones.
+Realizar prototipos y PoCs exploratorios (notebooks, experimentación de modelos) antes de llevar a producción.
+Revisar código del equipo, mentoría, estandarización, asegurar calidad, pruebas e integración continua.
+Asumir responsabilidad operativa del sistema una vez desplegado: monitoreo, logging, alertas, mantenimiento.
+
+Habilidades y experiencia requerida
+
+Experiencia comprobable (= 8 años) en desarrollo backend, mayormente con Python.
+Experiencia práctica en IA generativa, modelos de lenguaje y agentes.
+Conocimiento avanzado de LangChain (Agents, Tools, Memory, workflows múltiples).
+Experiencia con bases vectoriales (FAISS, Pinecone, Milvus u otras) para búsquedas semánticas.
+Sólido entendimiento de transformers, embeddings, fine-tuning o uso de modelos externos.
+Experiencia con notebooks (Jupyter) para prototipos experimentales.
+Experiencia en desarrollo de microservicios y arquitecturas desacopladas.
+Integración con colas (RabbitMQ u otro bus), arquitecturas event-driven (EDA).
+Conocimiento de Docker, Kubernetes u otros enfoques de despliegue.
+Buen entendimiento de patrones de diseño, principios SOLID, clean architecture.
+Experiencia en integrar con APIs, bases de datos y sistemas empresariales.-Requerimientos- Educación mínima: Educación superior - Licenciatura
+8 años de experiencia
+Palabras clave: jefe, gerente, manager, director, chief, lead, jefatura, regente, tecnologo, tecnico, tech, technician, technology, tecnologia, technologist, architect, arquitecto, architecture, arquitectura",FULL_TIME,full-time,"Miguel Hidalgo, Ciudad de México DF",Venta al consumidor,,,,2026-08-21,2026-10-20,2026-11-21,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-tecnico-de-ia-arquitecto-rag-y-agentes-en-miguel-hidalgo-21116855FC14C46361373E686DCF3405,GRUPO TRUPER,,https://ii.ct-stc.com/2/logos/empresas/2025/03/26/77b8d3bf47834834ba06190349812thumbnail.jpg,Venta al consumidor,,,,"Miguel Hidalgo, Ciudad de México DF",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-tecnico-de-ia-arquitecto-rag-y-agentes-en-miguel-hidalgo-21116855FC14C46361373E686DCF3405,c3b089b4b29dc96d
