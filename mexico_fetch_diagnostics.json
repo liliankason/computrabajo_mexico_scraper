@@ -5,16 +5,16 @@
       "attempt": 1,
       "status_code": 200,
       "response_headers": {
-        "Date": "Wed, 14 Oct 2026 00:02:47 GMT",
+        "Date": "Wed, 14 Oct 2026 11:40:12 GMT",
         "Content-Type": "text/html; charset=utf-8",
         "Transfer-Encoding": "chunked",
         "Connection": "keep-alive",
         "Cache-Control": "private,max-age=300",
         "Content-Encoding": "gzip",
-        "Age": "226",
+        "Age": "71",
         "Vary": "*"
       },
-      "body_length": 123742,
+      "body_length": 123740,
       "body_snippet": "<!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"es-MX\">\r\n<head>\r\n    \r\n    <title>Bolsa de trabajo M&#xE9;xico | Portal de empleo L&#xED;der en Latinoam&#xE9;rica</title>\r\n\r\n    <meta name=\"title\" content=\"Bolsa de trabajo M&#xE9;xico | Portal de empleo L&#xED;der en Latinoam&#xE9;rica\" />\r\n    <meta name=\"description\" content=\"Computrabajo es el portal de empleo l&#xED;der en Latinoam&#xE9;rica. Nuestra bolsa de trabajo publica nuevas ofertas de empleo cada d&#xED;a en todo M&#xE9;xico. &#xA1;Post&#xFA;late Ahora!\" />\r\n    <meta name=\"author\" content=\"Computrabajo M&#xE9;xico\" />\r\n    <meta property=\"og:title\" content=\"Bolsa de trabajo M&#xE9;xico | Portal de empleo L&#xED;der en Latinoam&#xE9;rica\" />\r\n    <meta property=\"og:description\" content=\"Computrabajo es el portal de empleo l&#xED;der en Latinoam&#xE9;rica. Nuestra bolsa de trabajo publica nuevas ofertas de empleo cada d&#xED;a en todo M&#xE9;xico. &#xA1;Post&#xFA;late Ahora!\" />\r\n    <meta property=\"og:site",
       "block_signature_matched": null,
       "final_url_after_redirects": "https://mx.computrabajo.com/"
