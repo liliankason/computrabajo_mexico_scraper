@@ -708692,3 +708692,57 @@ Si te gusta trabajar en equipo, atender personas y buscas estabilidad con oportu
 años de experiencia
 Edad: entre 20 y 60 años
 Palabras clave: asistente, auxiliar, aux, auxiliary, assistant, helper, aide, boutique, tienda, store, establecimiento, bazar, bazzar",TEMPORARY,temporary,"Naucalpan de Juárez, Estado de México",Venta al consumidor,,,9451 MXN,2026-10-07,2026-12-06,2027-01-07,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ayudante-de-tienda-oxxo-la-azteca-en-naucalpan-de-juarez-186A4DA4C240137061373E686DCF3405,OXXO,,https://ii.ct-stc.com/2/logos/empresas/2022/03/16//femsaservicios185012thumbnail.png,Venta al consumidor,,,,"Naucalpan de Juárez, Estado de México",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ayudante-de-tienda-oxxo-la-azteca-en-naucalpan-de-juarez-186A4DA4C240137061373E686DCF3405,1ae955e632998a60
+82,20,Site Reliability Engineer / DevOps Engineer,"¿A quien buscamos?
+Buscamos un Site Reliability Engineer que asegure la confiabilidad, estabilidad, eficiencia y seguridad de las plataformas productivas de Redarbor mediante la implementación de prácticas SRE, automatización, observabilidad avanzada y mejora continua.
+El SRE es responsable de operar y mejorar la infraestructura cloud y la plataforma de entrega, detectando y resolviendo problemas antes de que afecten a los usuarios, automatizando procesos críticos y trabajando de forma estrecha con el líder de Infraestructura para garantizar arquitecturas sólidas, resilientes y escalables.
+
+¿Tu rol?
+Confiabilidad y Operación:
+Supervisar y mejorar la operación diaria de plataformas cloud y sistemas distribuidos.
+Monitorear salud de servicios, detectar degradaciones y actuar preventivamente.
+Ejecutar prácticas de SRE: error budgets, SLOs, SLIs, resiliencia, análisis post-mortem.
+Optimizar performance mediante análisis de latencia, tráfico y métricas operativas.
+Automatización y Eliminación de Toil:
+Automatizar tareas repetitivas y flujos operativos mediante CI/CD y scripting.
+Crear herramientas internas para que los equipos autogestionen despliegues y entornos.
+Implementar pipelines confiables para despliegues, rollback y pruebas.
+Infraestructura Cloud y Kubernetes
+Operar infraestructura cloud: redes, compute, balanceo, almacenamiento y seguridad.
+Administrar clústeres Kubernetes garantizando disponibilidad y eficiencia.
+Desplegar, diagnosticar y optimizar servicios en el clúster usando buenas prácticas.
+Gestionar actualizaciones, parches y ciclos de vida.
+Observabilidad y Alertamiento
+Diseñar y mantener sistemas de observabilidad: métricas, logs, trazabilidad distribuida.
+Crear dashboards claros y definir alertas accionables.
+Reducir ruido de alertas e incrementar la calidad del monitoreo.
+Seguridad y Compliance
+Implementar estándares de seguridad en infraestructura y servicios operativos.
+Gestionar controles de acceso, segmentación y hardening.
+Detectar anomalías y participar en respuesta a incidentes.
+Asegurar cumplimiento de políticas internas y auditorías técnicas.
+Soporte a Equipos Internos
+Colaborar con equipos de ingeniería para mejorar confiabilidad y resolver incidentes.
+Documentar y crear guías para facilitar autonomía de los equipos.
+Participar en revisiones técnicas y apoyar en diseño de soluciones resilientes.
+Colaboración y Mejora Continua
+Trabajar estrechamente con el Líder de Infraestructura en proyectos estratégicos.
+Evolucionar estándares y procesos de operación.
+Proponer mejoras basadas en datos y métricas.
+Mantener documentación actualizada y clara.
+
+Eres la persona que buscamos si tienes:
+Licenciatura/Ingeniería en Sistemas, Informática o afín.
+Más de 3 años en roles de SRE, DevOps o ingeniería de plataformas.
+Radicas en CDMX (trabajamos en modalidad híbrida).
+Experiencia con:
+Kubernetes y contenedores (operación y troubleshooting).
+Cloud AWS: redes, balanceo, seguridad y compute.
+Redes, DNS y seguridad perimetral.
+Observabilidad avanzada (End to End)
+IaC: Terraform, Pulumi u otros.
+Automatización, CI/CD y scripting
+Diagnóstico de performance y fallas, incidentes de alta severidad y análisis post-mortem
+Seguridad operativa y hardening.
+Sistemas distribuidos.
+Conocimientos avanzados de Linux.
+Deseable conocimiento en Python, Go o TypeScript.",,full-time,"Naucalpan de Juárez, Estado de México",,,,A convenir USD,,,,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-site-reliability-engineer-devops-engineer-en-naucalpan-de-juarez-576EF5C7EDFA1C5561373E686DCF3405,Importante empresa del sector,,,,,,,"Naucalpan de Juárez, Estado de México",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-site-reliability-engineer-devops-engineer-en-naucalpan-de-juarez-576EF5C7EDFA1C5561373E686DCF3405,0e554e52c48bd17f
