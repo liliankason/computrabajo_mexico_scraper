@@ -949161,3 +949161,101 @@ yosoyZapata FamiliaZapata teamZapata IloveZapata TalentoZapata VendedordeRefacci
 años de experiencia
 Disponibilidad de viajar: Si
 Palabras clave: salesman, saleswoman, seller, vendedor, comercial, salesperson",FULL_TIME,full-time,"Zapopan, Jalisco",Transporte,,,9000 MXN,2026-10-10,2026-12-09,2027-01-10,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-refacciones-en-zapopan-19ED38BACF43692961373E686DCF3405,Corporación-Zapata,,,Transporte,,,,"Zapopan, Jalisco",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-refacciones-en-zapopan-19ED38BACF43692961373E686DCF3405,8d2ac2490af53eec
+320,19,Desarrollador fullstack - Agencia de viajes,"Descripción del puesto:
+
+Desarrollador(a) FullStack Mid – Viajes Lili
+
+Ubicación: Providencia, Guadalajara, Jalisco (CP 44630)
+Horario:
+
+Lunes a Viernes de 9:00 a.m. a 6:00 p.m. (con una hora de comida)
+Sábado de 9:00 a.m. a 2:00 p.m.
+Sueldo:
+$35,000 MXN netos mensuales
+Sobre la posición
+
+En Viajes Lili buscamos un Desarrollador Fullstack nivel intermedio, apasionado por crear soluciones tecnológicas eficientes, seguras y escalables.
+Buscamos un desarrollador Full Stack capaz de trabajar en backend y frontend, desarrollar y mantener aplicaciones web y participar en su despliegue, operación y monitoreo. Se requiere conocimiento práctico de herramientas de inteligencia artificial para apoyar el desarrollo y mejorar procesos.
+
+Responsabilidades
+
+Desarrollar interfaces responsivas con React, TypeScript y Tailwind CSS, utilizando Zustand para la gestión del estado.
+Desarrollar y mantener servicios backend con NestJS, Express y Go.
+Implementar e integrar APIs REST y comunicación entre servicios mediante gRPC.
+Diseñar y mantener bases de datos PostgreSQL, optimizar consultas y gestionar modelos y migraciones mediante TypeORM y Prisma.
+Utilizar Redis para caché y RabbitMQ para mensajería y procesamiento asíncrono.
+Crear y mantener Dockerfiles y configuraciones de Docker Compose, gestionando imágenes, contenedores, redes y volúmenes.
+Configurar y administrar instancias en AWS para el despliegue y operación de aplicaciones.
+Desplegar y administrar aplicaciones, servicios y bases de datos en Railway.
+Aplicar prácticas de DevOps para automatizar la integración, entrega, despliegue y operación de aplicaciones.
+Crear y mantener pipelines CI/CD con Jenkins y GitHub Actions para ejecutar validaciones de código, pruebas, compilación, publicación de imágenes Docker y despliegues.
+Gestionar variables de entorno, secretos, permisos y ambientes de desarrollo, pruebas y producción.
+Configurar aprobaciones y procedimientos de reversión de despliegues ante fallos.
+Implementar observabilidad con Grafana y herramientas complementarias, creando dashboards y alertas para analizar métricas, logs y trazas.
+Diagnosticar incidentes, resolver errores y optimizar el rendimiento de aplicaciones y servicios.
+Utilizar herramientas de IA para apoyar la programación y resolución de problemas, revisando y validando sus resultados.
+Identificar oportunidades de automatización y mejora de procesos mediante IA.
+Mantener código organizado, reutilizable y documentado.
+Requisitos
+
+Licenciatura o Ingeniería en Ciencias de la Computación, Ingeniería en Sistemas, Tecnologías de la Información o carreras afines
+Experiencia: 3+ como desarrollador fullstack o backend.
+Residencia: Cerca de la zona de Providencia, Guadalajara.
+Conocimientos técnicos:
+Frontend: React, TypeScript, Zustand y Tailwind CSS.
+Backend: Node.js, NestJS, Express y Go.
+Bases de datos y ORM: PostgreSQL, SQL, TypeORM y Prisma.
+Comunicación entre servicios: APIs REST y gRPC.
+Caché y mensajería: Redis y RabbitMQ.
+Contenedores: Docker y Docker Compose;Dockerfiles, construcción y publicación de imágenes, redes y volúmenes.
+Infraestructura: administración de instancias en AWS y despliegue de aplicaciones, servicios y bases de datos en Railway.
+DevOps y CI/CD: Jenkins y GitHub Actions; workflows en YAML, eventos de ejecución, jobs, runners, artefactos, caché y automatización de pruebas, compilación y despliegues.
+Operación y despliegues: gestión de ambientes, variables de entorno, secretos, permisos, dominios, aprobaciones y estrategias de reversión.
+Observabilidad: Grafana, dashboards, alertas y análisis de métricas, logs y trazas. Deseable experiencia con Prometheus, Loki y OpenTelemetry.
+Inteligencia artificial: uso práctico de herramientas de IA aplicadas al desarrollo de software.
+Control de versiones: Git y GitHub, manejo de ramas, pull requests, revisión de código y resolución de conflictos.
+Autenticación: OAuth2/OIDC con Microsoft Entra ID (Azure AD) para SSO, JWT/rotación, RBAC (roles) y ABAC (atributos).
+Deseable
+
+Experiencia en integración de servicios y automatización de procesos.
+Experiencia en fintech o sistemas contables/ERP.
+Conocimiento de estándares ISO 20022 o flujos de conciliación bancaria.
+Pruebas: unitarias, integración/contrato (Pact), carga (Artillery), seguridad (SAST/DAST), test de resiliencia.
+Familiaridad con despliegues en entornos Windows Server y/o Linux.
+Habilidades Blandas
+
+· Comunicación efectiva con equipos técnicos y no técnicos.
+
+· Pensamiento estructurado y enfoque en seguridad y cumplimiento.
+
+· Capacidad de documentación clara (diagramas, decisiones técnicas).
+
+· Proactividad, resolución de problemas y orientación a resultados.
+
+Ofrecemos
+
+Sueldo competitivo de $35,000 MXN netos.
+Prestaciones de ley.
+Fondo de ahorro
+Salario emocional
+Viajes gratis y precios especiales
+Comedor subsidiado al 50%
+Vales de despensa (1,000 mensuales)
+MSS
+Infonavit
+Aguinaldo
+Vacaciones y prima vacacional
+Reparto de utilidades conforme a la ley.
+Tipo de puesto: Tiempo completo
+
+Beneficios:
+
+Descuento de empleados
+Descuentos y precios preferenciales
+Servicio de comedor con descuento
+Uniformes gratuitos.
+
+-Requerimientos- Educación mínima: Educación superior - Licenciatura
+3 años de experiencia
+Edad: entre 24 y 40 años
+Palabras clave: developer, programador",FULL_TIME,full-time,"Guadalajara, Jalisco",Venta al consumidor,,,35000 MXN,2026-10-10,2026-12-09,2027-01-10,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-agencia-de-viajes-en-guadalajara-BC0DE9B4C8AA86DC61373E686DCF3405,"Logística, Viajes y Bodas SA de CV",,https://ii.ct-stc.com/2/logos/empresas/2019/10/29/a643ec00ce02440eab0d191144488thumbnail.png,Venta al consumidor,,,,"Guadalajara, Jalisco",,https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-desarrollador-fullstack-agencia-de-viajes-en-guadalajara-BC0DE9B4C8AA86DC61373E686DCF3405,a2672c37042525bb
