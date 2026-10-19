@@ -7,7 +7,7 @@ on:
     # fires while a run is still going (never cancelled), so runs chain
     # back-to-back. Each run can last up to ~5.5h. Once every location is
     # scraped, the script sees mexico_SCRAPE_COMPLETE.flag and exits in seconds.
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
 
 concurrency:
   # Must be unique per country so countries can run in parallel.
