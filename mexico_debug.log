@@ -1031233,3 +1031233,197 @@ Vacante: Coordinador…
 2026-10-18 14:43:47,387 DEBUG     $ git diff --cached --quiet → rc=1
 2026-10-18 14:43:48,001 DEBUG     $ git commit -m Scraper progress update [skip ci] → rc=0 | [main b2670db0a] Scraper progress update [skip ci]
  3 files changed, 60 insertions(+), 1 deletion(-)
+2026-10-19 09:06:26,239 WARNING [STARTUP CHECK] INTERNAL_BOT_KEY is EMPTY/MISSING — X-Internal-Auth will NOT be sent.
+2026-10-19 09:06:26,239 INFO [STARTUP CHECK] GIT_AUTO_PUSH is ON — committing/pushing every 1 saved job(s).
+2026-10-19 09:06:26,240 INFO 🚀 Computrabajo Mexico scraper — starting… (Ctrl+C is safe; re-run to resume)
+2026-10-19 09:06:26,240 WARNING ⚠️  WordPress credentials not set (WP_BASE_URL, WP_USERNAME, WP_APP_PASSWORD) — WP posting DISABLED. Jobs are still saved to mexico_scraped_jobs.csv.
+2026-10-19 09:06:27,540 INFO 📋 37841 jobs already recorded.
+2026-10-19 09:06:27,540 INFO Fetching homepage: https://mx.computrabajo.com/
+2026-10-19 09:06:27,542 DEBUG Starting new HTTPS connection (1): mx.computrabajo.com:443
+2026-10-19 09:06:27,783 DEBUG https://mx.computrabajo.com:443 "GET / HTTP/1.1" 200 None
+2026-10-19 09:06:27,852 INFO ✅ Homepage fetched cleanly (HTTP 200, 123,929 chars).
+2026-10-19 09:06:27,885 INFO 📝 Wrote mexico_fetch_diagnostics.json
+2026-10-19 09:06:27,895 INFO 📍 Found 48 location URLs via div.lL.
+2026-10-19 09:06:27,895 INFO 📍 Found 48 location URLs.
+2026-10-19 09:06:27,895 DEBUG     [0] https://mx.computrabajo.com/empleos-en-ciudad-de-mexico
+2026-10-19 09:06:27,895 DEBUG     [1] https://mx.computrabajo.com/empleos-en-ciudad-de-mexico-en-cuauhtemoc
+2026-10-19 09:06:27,895 DEBUG     [2] https://mx.computrabajo.com/empleos-en-ciudad-de-mexico-en-benito-juarez
+2026-10-19 09:06:27,895 DEBUG     [3] https://mx.computrabajo.com/empleos-en-miguel-hidalgo
+2026-10-19 09:06:27,895 DEBUG     [4] https://mx.computrabajo.com/empleos-en-estado-de-mexico
+2026-10-19 09:06:27,895 DEBUG     [5] https://mx.computrabajo.com/empleos-en-naucalpan-de-juarez
+2026-10-19 09:06:27,896 DEBUG     [6] https://mx.computrabajo.com/empleos-en-tlalnepantla-de-baz
+2026-10-19 09:06:27,896 DEBUG     [7] https://mx.computrabajo.com/empleos-en-toluca
+2026-10-19 09:06:27,896 DEBUG     [8] https://mx.computrabajo.com/empleos-en-jalisco
+2026-10-19 09:06:27,896 DEBUG     [9] https://mx.computrabajo.com/empleos-en-guadalajara
+2026-10-19 09:06:27,896 DEBUG     [10] https://mx.computrabajo.com/empleos-en-tlajomulco-de-zuñiga
+2026-10-19 09:06:27,896 DEBUG     [11] https://mx.computrabajo.com/empleos-en-zapopan
+2026-10-19 09:06:27,896 DEBUG     [12] https://mx.computrabajo.com/empleos-en-guanajuato
+2026-10-19 09:06:27,896 DEBUG     [13] https://mx.computrabajo.com/empleos-en-celaya
+2026-10-19 09:06:27,896 DEBUG     [14] https://mx.computrabajo.com/empleos-en-irapuato
+2026-10-19 09:06:27,896 DEBUG     [15] https://mx.computrabajo.com/empleos-en-leon
+2026-10-19 09:06:27,896 DEBUG     [16] https://mx.computrabajo.com/empleos-en-puebla
+2026-10-19 09:06:27,896 DEBUG     [17] https://mx.computrabajo.com/empleos-en-cuautlancingo
+2026-10-19 09:06:27,896 DEBUG     [18] https://mx.computrabajo.com/empleos-en-puebla-ciudad
+2026-10-19 09:06:27,896 DEBUG     [19] https://mx.computrabajo.com/empleos-en-san-andres-cholula
+2026-10-19 09:06:27,896 DEBUG     [20] https://mx.computrabajo.com/empleos-en-queretaro
+2026-10-19 09:06:27,896 DEBUG     [21] https://mx.computrabajo.com/empleos-en-corregidora
+2026-10-19 09:06:27,896 DEBUG     [22] https://mx.computrabajo.com/empleos-en-el-marques
+2026-10-19 09:06:27,896 DEBUG     [23] https://mx.computrabajo.com/empleos-en-queretaro-ciudad
+2026-10-19 09:06:27,897 DEBUG     [24] https://mx.computrabajo.com/empleos-en-nuevo-leon
+2026-10-19 09:06:27,897 DEBUG     [25] https://mx.computrabajo.com/empleos-en-apodaca
+2026-10-19 09:06:27,897 DEBUG     [26] https://mx.computrabajo.com/empleos-en-monterrey
+2026-10-19 09:06:27,897 DEBUG     [27] https://mx.computrabajo.com/empleos-en-san-pedro-garza-garcia
+2026-10-19 09:06:27,897 DEBUG     [28] https://mx.computrabajo.com/empleos-en-quintana-roo
+2026-10-19 09:06:27,897 DEBUG     [29] https://mx.computrabajo.com/empleos-en-quintana-roo-en-benito-juarez
+2026-10-19 09:06:27,897 DEBUG     [30] https://mx.computrabajo.com/empleos-en-solidaridad
+2026-10-19 09:06:27,897 DEBUG     [31] https://mx.computrabajo.com/empleos-en-tulum
+2026-10-19 09:06:27,897 DEBUG     [32] https://mx.computrabajo.com/empleos-en-yucatan
+2026-10-19 09:06:27,897 DEBUG     [33] https://mx.computrabajo.com/empleos-en-merida
+2026-10-19 09:06:27,897 DEBUG     [34] https://mx.computrabajo.com/empleos-en-yucatan-en-progreso
+2026-10-19 09:06:27,897 DEBUG     [35] https://mx.computrabajo.com/empleos-en-uman
+2026-10-19 09:06:27,897 DEBUG     [36] https://mx.computrabajo.com/empleos-en-veracruz-de-ignacio-de-la-llave
+2026-10-19 09:06:27,897 DEBUG     [37] https://mx.computrabajo.com/empleos-en-boca-del-rio
+2026-10-19 09:06:27,897 DEBUG     [38] https://mx.computrabajo.com/empleos-en-veracruz-ciudad
+2026-10-19 09:06:27,897 DEBUG     [39] https://mx.computrabajo.com/empleos-en-xalapa
+2026-10-19 09:06:27,897 DEBUG     [40] https://mx.computrabajo.com/empleos-en-san-luis-potosi
+2026-10-19 09:06:27,898 DEBUG     [41] https://mx.computrabajo.com/empleos-en-san-luis-potosi-ciudad
+2026-10-19 09:06:27,898 DEBUG     [42] https://mx.computrabajo.com/empleos-en-soledad-de-graciano-sanchez
+2026-10-19 09:06:27,898 DEBUG     [43] https://mx.computrabajo.com/empleos-en-villa-de-reyes
+2026-10-19 09:06:27,898 DEBUG     [44] https://mx.computrabajo.com/empleos-en-aguascalientes
+2026-10-19 09:06:27,898 DEBUG     [45] https://mx.computrabajo.com/empleos-en-aguascalientes-ciudad
+2026-10-19 09:06:27,898 DEBUG     [46] https://mx.computrabajo.com/empleos-en-aguascalientes-en-jesus-maria
+2026-10-19 09:06:27,898 DEBUG     [47] https://mx.computrabajo.com/empleos-en-san-francisco-de-los-romo
+2026-10-19 09:06:27,898 INFO 🚀 Scraping 48 locations. Resuming at location #12 (https://mx.computrabajo.com/empleos-en-guanajuato), page 133, after position 5.
+2026-10-19 09:06:27,898 INFO Fetching listing page 133: https://mx.computrabajo.com/empleos-en-guanajuato?p=133
+2026-10-19 09:06:28,122 DEBUG https://mx.computrabajo.com:443 "GET /empleos-en-guanajuato?p=133 HTTP/1.1" 200 None
+2026-10-19 09:06:28,194 DEBUG     GET https://mx.computrabajo.com/empleos-en-guanajuato?p=133 → HTTP 200 (334,053 chars)
+2026-10-19 09:06:28,285 INFO Found 20 job URLs on page 133
+2026-10-19 09:06:28,285 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 1/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-cocinero-alboa-plaza-mayor-en-leon-3F2F6B4439748EEB61373E686DCF3405
+2026-10-19 09:06:28,285 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,285 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 2/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-refacciones-leon-en-leon-C4FE9445A82561D761373E686DCF3405
+2026-10-19 09:06:28,285 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,286 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 3/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-creador-de-contenido-audiovisual-motion-graphics-y-contenido-digital-en-irapuato-866937D3B533A77961373E686DCF3405
+2026-10-19 09:06:28,286 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,286 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 4/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-contabilidad-cuentas-por-pagar-en-leon-582E1A3CD372984961373E686DCF3405
+2026-10-19 09:06:28,286 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,287 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 5/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefa-de-ropa-waldos-encargado-de-ropa-waldos-en-leon-AB396C2FD635084761373E686DCF3405
+2026-10-19 09:06:28,287 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,287 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 6/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-consumo-temporal-en-leon-EC60D738B926736261373E686DCF3405
+2026-10-19 09:06:28,287 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,287 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 7/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesora-de-ventas-en-leon-44340D0C5B7D851C61373E686DCF3405
+2026-10-19 09:06:28,287 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,288 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 8/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-de-ventas-automotriz-en-leon-104FFC98938E275261373E686DCF3405
+2026-10-19 09:06:28,288 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,288 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 9/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-electromecanico-en-celaya-C9216D10C136EF6661373E686DCF3405
+2026-10-19 09:06:28,288 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,289 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 10/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-de-mantenimiento-en-campo-sector-bancario-bono-mens-prest-superiores-viaticos-pagados-en-celaya-87F7F06DFE2BAFAD61373E686DCF3405
+2026-10-19 09:06:28,289 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,289 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 11/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-promotor-de-cambaceo-en-acambaro-E7D4259E1B197DE161373E686DCF3405
+2026-10-19 09:06:28,289 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,289 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 12/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-l-a-v-en-irapuato-432AF296FD33F06B61373E686DCF3405
+2026-10-19 09:06:28,289 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,290 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 13/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-promotor-de-credito-en-bodega-aurrera-san-diego-de-la-union-en-san-diego-de-la-union-6D11B96B5467936B61373E686DCF3405
+2026-10-19 09:06:28,290 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,290 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 14/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-doblador-de-lamina-y-placa-doblador-cnc-en-leon-9402D88A3499479461373E686DCF3405
+2026-10-19 09:06:28,290 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,291 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 15/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-motos-italika-sueldo-base-mas-comisiones-mas-bonos-en-celaya-ACC892FAFC0426C461373E686DCF3405
+2026-10-19 09:06:28,291 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,291 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 16/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-de-ventas-telefonicas-en-leon-90C07300FAE98EC461373E686DCF3405
+2026-10-19 09:06:28,291 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,291 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 17/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-reclutamiento-ingles-avanzado-en-leon-AC399E836EC4F2A061373E686DCF3405
+2026-10-19 09:06:28,291 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,292 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 18/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-documentador-en-salamanca-D58F2C226D2ED1A161373E686DCF3405
+2026-10-19 09:06:28,292 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,292 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 19/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-instructor-entrenador-operativo-experto-en-capacitacion-para-rolar-turnos-en-celaya-3FC7762F7D691EC761373E686DCF3405
+2026-10-19 09:06:28,292 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,293 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 133 | job 20/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesora-comercial-de-autos-nuevos-experiencia-no-necesaria-en-irapuato-83777D5DB047A4AA61373E686DCF3405
+2026-10-19 09:06:28,293 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,293 INFO 📊 Totals — saved: 0 | skipped: 20 | failed: 0
+2026-10-19 09:06:28,293 INFO Fetching listing page 134: https://mx.computrabajo.com/empleos-en-guanajuato?p=134
+2026-10-19 09:06:28,531 DEBUG https://mx.computrabajo.com:443 "GET /empleos-en-guanajuato?p=134 HTTP/1.1" 200 None
+2026-10-19 09:06:28,536 DEBUG     GET https://mx.computrabajo.com/empleos-en-guanajuato?p=134 → HTTP 200 (335,290 chars)
+2026-10-19 09:06:28,626 INFO Found 20 job URLs on page 134
+2026-10-19 09:06:28,626 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 1/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-experiencia-mega-miguel-hidalgo-en-silao-de-la-victoria-554E35302DC06BD261373E686DCF3405
+2026-10-19 09:06:28,626 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,627 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 2/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-produccion-en-celaya-70AF4A7AE733008F61373E686DCF3405
+2026-10-19 09:06:28,627 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,627 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 3/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-representante-de-ventas-sueldo-base-comisiones-en-irapuato-EDE496B1E4111DD261373E686DCF3405
+2026-10-19 09:06:28,627 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,627 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 4/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-de-ventas-sueldo-base-comisiones-en-irapuato-A0FF41673752E63A61373E686DCF3405
+2026-10-19 09:06:28,627 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,628 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 5/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-prefectoa-plantel-educativo-en-leon-A7E73234ADBFC14861373E686DCF3405
+2026-10-19 09:06:28,628 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,628 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 6/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-pago-semanal-en-leon-E69E8185BF8C837561373E686DCF3405
+2026-10-19 09:06:28,628 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,628 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 7/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-unidad-en-silao-de-la-victoria-6009DD05ED16DE6B61373E686DCF3405
+2026-10-19 09:06:28,629 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,629 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 8/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-instructora-smartfit-plaza-real-silao-en-silao-de-la-victoria-1A30F86E8A533DFC61373E686DCF3405
+2026-10-19 09:06:28,629 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,629 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 9/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-de-produccion-en-leon-1F0B715EA38F8F5C61373E686DCF3405
+2026-10-19 09:06:28,629 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,630 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 10/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-junior-de-operaciones-de-ciberseguridad-leon-gto-en-leon-5D5A2CC0EE3DFA1C61373E686DCF3405
+2026-10-19 09:06:28,630 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,630 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 11/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-financiero-y-atencion-a-clientes-lunes-a-viernes-pago-semanal-en-leon-DBC2A64BA8136E0261373E686DCF3405
+2026-10-19 09:06:28,630 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,631 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 12/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-tecnico-de-mantenimiento-toyota-guanajuato-en-apaseo-el-grande-5452979C87073E7761373E686DCF3405
+2026-10-19 09:06:28,631 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,631 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 13/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-encargado-de-tienda-celaya-en-celaya-9634524513E93D0261373E686DCF3405
+2026-10-19 09:06:28,631 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,631 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 14/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-cosmetologa-cosmiatra-facialista-plaza-mayor-en-leon-4648138D43367F6861373E686DCF3405
+2026-10-19 09:06:28,631 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,632 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 15/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-guardia-de-seguridad-plaza-mayor-leon-en-leon-CBB901ADA200984161373E686DCF3405
+2026-10-19 09:06:28,632 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,632 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 16/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedoracajera-para-tienda-de-skincare-y-maquillaje-plaza-mayor-en-leon-629DB72A9481D20561373E686DCF3405
+2026-10-19 09:06:28,632 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,632 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 17/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-mecanico-diesel-en-irapuato-33541B1FCD190D2661373E686DCF3405
+2026-10-19 09:06:28,632 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,633 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 18/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-reclutadora-staff-giro-automotriz-en-san-francisco-del-rincon-E74F00351F3D26C361373E686DCF3405
+2026-10-19 09:06:28,633 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,633 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 19/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-chofer-vendedor-san-miguel-de-allende-en-san-miguel-de-allende-352CA31F0C818D8361373E686DCF3405
+2026-10-19 09:06:28,633 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,633 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 134 | job 20/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-anfitriona-de-sucursal-en-salvatierra-2EF4BD73089D5B1561373E686DCF3405
+2026-10-19 09:06:28,633 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,634 INFO 📊 Totals — saved: 0 | skipped: 40 | failed: 0
+2026-10-19 09:06:28,634 INFO Fetching listing page 135: https://mx.computrabajo.com/empleos-en-guanajuato?p=135
+2026-10-19 09:06:28,864 DEBUG https://mx.computrabajo.com:443 "GET /empleos-en-guanajuato?p=135 HTTP/1.1" 200 None
+2026-10-19 09:06:28,869 DEBUG     GET https://mx.computrabajo.com/empleos-en-guanajuato?p=135 → HTTP 200 (334,796 chars)
+2026-10-19 09:06:28,942 INFO Found 20 job URLs on page 135
+2026-10-19 09:06:28,942 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 135 | job 1/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-recien-egresado-funcionario-de-operaciones-en-leon-637779BC92AD570E61373E686DCF3405
+2026-10-19 09:06:28,942 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,943 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 135 | job 2/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-cajeroa-universal-leon-en-leon-84B59E0D9B6257B061373E686DCF3405
+2026-10-19 09:06:28,943 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,943 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 135 | job 3/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-territorial-de-cobranza-extrajudicial-campo-en-irapuato-382D1E7D88F003A661373E686DCF3405
+2026-10-19 09:06:28,943 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,944 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 135 | job 4/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-mesa-de-control-seguros-en-leon-39EFB258E5E4567D61373E686DCF3405
+2026-10-19 09:06:28,944 INFO ⏭ SKIP — already processed.
+2026-10-19 09:06:28,944 INFO ── https://mx.computrabajo.com/empleos-en-guanajuato | page 135 | job 5/20: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-compras-y-almacen-turno-completo-en-silao-de-la-victoria-F0366DEB6E3436CE61373E686DCF3405
+2026-10-19 09:06:29,099 DEBUG https://mx.computrabajo.com:443 "GET /ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-compras-y-almacen-turno-completo-en-silao-de-la-victoria-F0366DEB6E3436CE61373E686DCF3405 HTTP/1.1" 200 None
+2026-10-19 09:06:29,102 DEBUG     GET https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-compras-y-almacen-turno-completo-en-silao-de-la-victoria-F0366DEB6E3436CE61373E686DCF3405 → HTTP 200 (152,827 chars)
+2026-10-19 09:06:29,133 WARNING No JobPosting JSON-LD, using HTML fallback: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-compras-y-almacen-turno-completo-en-silao-de-la-victoria-F0366DEB6E3436CE61373E686DCF3405
+2026-10-19 09:06:29,152 INFO     ┌─ SCRAPED JOB ─────────────────────────────────────────
+    │ URL          : https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-compras-y-almacen-turno-completo-en-silao-de-la-victoria-F0366DEB6E3436CE61373E686DCF3405
+    │ Title        : Auxiliar de compras y almacén - Turno completo
+    │ Company      : Importante empresa del sector
+    │ Location     : Silao de la Victoria, Guanajuato
+    │ Job type     : (none) → full-time
+    │ Salary       : A convenir USD
+    │ Industry     : (none)
+    │ Date posted  : (unknown)
+    │ Deadline     : (none)
+    │ External ID  : (none)
+    │ Description  :  Formación académica: Preparatoria terminada, bachillerato tecnológico o carrera técnica en Administración, Logística, Comercio o afines. (Deseable: Licenciatura trunca o pasante).
+ Experiencia Míni…
+    └───────────────────────────────────────────────────────
+2026-10-19 09:06:29,177 INFO 💾 Saved to mexico_scraped_jobs.csv: 'Auxiliar de compras y almacén - Turno completo' (job id 2073c0b3514a5c3b)
+2026-10-19 09:06:29,185 DEBUG     $ git config user.name computrabajo-scraper-bot → rc=0
+2026-10-19 09:06:29,187 DEBUG     $ git config user.email actions@users.noreply.github.com → rc=0
+2026-10-19 09:06:30,602 DEBUG     $ git add -f -- mexico_scraped_jobs.csv mexico_processed.csv mexico_computrabajo_progress.json → rc=0
+2026-10-19 09:06:30,605 DEBUG     $ git diff --cached --quiet → rc=1
+2026-10-19 09:06:31,228 DEBUG     $ git commit -m Scraper progress update [skip ci] → rc=0 | [main 7e2156d0c] Scraper progress update [skip ci]
+ 3 files changed, 9 insertions(+), 1 deletion(-)
+2026-10-19 09:06:31,559 DEBUG     $ git push → rc=1 | To https://github.com/liliankason/computrabajo_mexico_scraper
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/liliankason/computrabajo_mexico_scraper'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have lo
+2026-10-19 09:06:31,560 WARNING     git push attempt 1/3 failed — pulling (rebase) and retrying.
